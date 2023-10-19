@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import {User} from './Components/UserComponent';
 import Profile from './Components/ProfileClassComponent';
+import Video from './Components/VideoComponent';
 
 function App() {
   function clickMe()
@@ -16,6 +17,7 @@ function App() {
         Test is here
       </h1>  
       
+      <Video />
       <User />
       <Profile />
       <button onClick={clickMe} >Click Me</button>
